@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap');
@@ -351,7 +351,6 @@ const skills = [
 ];
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState("hero");
 
   useEffect(() => {
     document.title = "Ghanshyam | CSE Developer";
